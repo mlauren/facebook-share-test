@@ -1,0 +1,28 @@
+.btn.btn-beige .add-on-left, .btn.btn-light .add-on-left, .btn.standishgreen .add-on-left, a.btn.btn-beige .add-on-left, a.btn.btn-light .add-on-left, a.btn.standishgreen .add-on-left, a.button.btn-beige .add-on-left, a.button.btn-light .add-on-left, a.button.standishgreen .add-on-left, button.btn-beige .add-on-left, button.btn-light .add-on-left, button.standishgreen .add-on-left {
+    border-right: 1px solid #696969;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+
+.facebook-share {
+	border-radius: 3em;
+    background: blue;
+    padding: 1em 1.5em;
+
+    left: 38%;
+    top: 24%;
+}
+
+
+.btn.facebook {
+	background-color: #3b5998;
+	color: white;
+	border: 1px solid #2f4a83;
+}
