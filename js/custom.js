@@ -33,7 +33,7 @@
 
             FB.ui(
             {
-              method: 'share',
+              method: 'save',
               href: fbshareUrl
             }, function(response) {
                 console.log(response);
