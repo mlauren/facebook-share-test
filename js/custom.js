@@ -27,15 +27,15 @@
         });
 
 
-        $('.facebook-share').on('click', function() {
+        $('.btn-facebook-share').on('click', function() {
+
             var fbshareUrl = $(this).attr('data-href');
-            console.log(fbshareUrl);
 
             FB.ui(
             {
               method: 'share',
               href: fbshareUrl
-            }, function(response){
+            }, function(response) {
                 console.log(response);
             });
 
