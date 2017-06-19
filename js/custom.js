@@ -29,6 +29,7 @@
 
         $('.facebook-share').on('click', function() {
             var fbshareUrl = $(this).attr('data-href');
+            console.log(fbshareUrl);
 
             FB.ui(
             {
